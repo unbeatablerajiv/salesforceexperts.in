@@ -15,8 +15,8 @@ const config = {
   postDefaultCategoryID: "Tech",
   newsletter: "https://pratap.substack.com",
   newsletterEmbed: "https://pratap.substack.com/embed",
-  userName: "Pratap",
-  userEmail: "sharma.pratap22@gmail.com",
+  userName: "Rajiv",
+  userEmail: "rajiv4som1@gmail.com",
   userTwitter: "pratap2210",
   menuLinks: [
     {

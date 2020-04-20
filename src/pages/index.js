@@ -28,8 +28,9 @@ export default class Index extends Component {
             <div className="elevator">
               <h1>{`Hey, I'm Rajiv👋`} </h1>
               <p>
-                'I'm a Saesforce tech lead creating
-                innovative solutions on the salesforce platform 
+                I am a Salesforce Tech lead creating
+                innovative solutions on the salesforce platform. Let's connect
+                and contribute to salesforce ohana.
               </p>
             </div>
             <div className="newsletter-section">
@@ -125,7 +126,7 @@ export default class Index extends Component {
                   fontSize: "1.3em",
                 }}
               >
-                View More Quotes
+                View More Recommendations
               </Link>
             </div>
           )}

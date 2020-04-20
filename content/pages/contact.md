@@ -11,7 +11,7 @@ If you have any comments, ideas, critiques, or you just want to say hi, don't he
 
 ### Around the web
 
-- **Email**: [rajiv4som1@gmail.com.com](mailto:rajiv4som1[AT]gmail[DOT]com)
+- **Email**: [rajiv4som1@gmail.com](mailto:rajiv4som1[AT]gmail[DOT]com)
 - **GitHub**: [pratap22](https://github.com/pratap22)
 - **Twitter**: [Pratap2210](https://twitter.com/Pratap2210)
 - **LinkedIn**: [prataps22](https://www.linkedin.com/in/prataps22/)
