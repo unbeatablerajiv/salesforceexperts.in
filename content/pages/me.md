@@ -28,11 +28,11 @@ I aim to contribute my bit to the salesforce ohana from what I have learned and 
 - LWC
 
 
-### Skills:
+### Certifications:
 - Sales Cloud Consultant
 - Service Cloud Consultant
 - CPQ Speacialist
-- Administrator
+- Salesforce Administrator
 - Plaform Developer 1
 - Platform Developer 2
 - Scrum Certified Professional

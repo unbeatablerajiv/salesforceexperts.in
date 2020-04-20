@@ -21,49 +21,17 @@ export default class Index extends Component {
 
     return (
       <Layout>
-        <Helmet title={`${config.siteTitle} – Full Stack Software Developer`} />
+        <Helmet title={`${config.siteTitle} – Salesforce Tech Lead`} />
         <SEO />
         <div className="container">
           <div className="lead">
             <div className="elevator">
-              <h1>{`Hey, I'm Pratap 👋`} </h1>
+              <h1>{`Hey, I'm Rajiv Singh 👋`} </h1>
               <p>
-                {`I'm a full stack software developer creating `}
-                <a
-                  href="https://github.com/pratap22"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  open source
-                </a>{" "}
-                projects and <Link to="/blog">writing</Link> about modern
-                JavaScript, Node.js, and development.
+                {`I'm a Saesforce tech lead creating `}
+              
+                innovative solutions on Salesforce platform.
               </p>
-              <div className="social-buttons">
-                <GitHubButton
-                  href="https://github.com/pratap22"
-                  data-size="large"
-                  data-show-count="true"
-                >
-                  pratap22
-                </GitHubButton>
-              </div>
-              <div className="social-buttons">
-                <a
-                  href="https://stackoverflow.com/users/10398005/pratap-sharma"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="https://stackoverflow.com/users/flair/10398005.png"
-                    width="208"
-                    height="58"
-                    alt="profile for Pratap Sharma at Stack Overflow, Q&amp;A for professional and enthusiast programmers"
-                    title="profile for Pratap Sharma at Stack Overflow, Q&amp;A for professional and enthusiast programmers"
-                  />
-                </a>
-              </div>
-            </div>
             <div className="newsletter-section">
               <img src={pratap} className="newsletter-avatar" alt="Pratap" />
               <div>
