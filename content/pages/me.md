@@ -12,8 +12,8 @@ I aim to contribute my bit to the salesforce ohana from what I have learned and 
 ### Rajiv Singh:
 
 - 💻 Working full-time as a Salesforce Tech Lead
-- 👾 loves play cricket & listening to music.
-- ☕  coffee lover
+- 👾 loves playing cricket & listening to music.
+- ☕  Cold coffee lover
 - 🍺 MotorHead
 
 ### Skills:
@@ -31,7 +31,7 @@ I aim to contribute my bit to the salesforce ohana from what I have learned and 
 ### Certifications:
 - Sales Cloud Consultant
 - Service Cloud Consultant
-- CPQ Speacialist
+- CPQ Specialist
 - Salesforce Administrator
 - Plaform Developer 1
 - Platform Developer 2
