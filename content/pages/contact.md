@@ -5,7 +5,7 @@ template: page
 thumbnail: "../thumbnails/pratap2018.png"
 ---
 
-Hi, I'm Pratap, a full stack software engineer based out of Bangalore, India. I build open-source projects and write about modern JavaScript, Node.js, design and web development.
+Hi, I'm Rajiv Singh, a Senior Salesforce Technical Lead based in Bangalore, India. I have extensive development experience across the multilple products of Salesforce.com.
 
 If you like my stuff and hate spam, join over **100 other developers** in receiving my email newsletter. 👇 One-click unsubscribe anytime.
 
@@ -19,15 +19,13 @@ If you like my stuff and hate spam, join over **100 other developers** in receiv
   ></iframe>
 </div>
 
-If you have any comments, ideas, critiques, or you just want to say hi, don't hesitate to send me an email at [sharma.pratap22@gmail.com](mailto:sharma[DOT]pratap22[AT]gmail[DOT]com)!
+If you have any comments, ideas, critiques, or you just want to say hi, don't hesitate to send me an email at [rajiv4som1@gmail.com.com](mailto:rajiv4som1[AT]gmail[DOT]com)!
 
 ### Around the web
 
-- **Email**: [sharma.pratap22@gmail.com](mailto:sharma[DOT]pratap22[AT]gmail[DOT]com)
+- **Email**: [rajiv4som1@gmail.com.com](mailto:rajiv4som1[AT]gmail[DOT]com)!com)
 - **GitHub**: [pratap22](https://github.com/pratap22)
 - **Twitter**: [Pratap2210](https://twitter.com/Pratap2210)
-- **LinkedIn**: [prataps22](https://www.linkedin.com/in/prataps22/)
-- **Stack Overflow**: [pratap-sharma](https://stackoverflow.com/users/10398005/pratap-sharma)
 - **LinkedIn**: [prataps22](https://www.linkedin.com/in/prataps22/)
 - **Ko-Fi**: [pratap22](https://ko-fi.com/pratap22)
 - **Patreon**: [pratap22](https://www.patreon.com/pratap22)
