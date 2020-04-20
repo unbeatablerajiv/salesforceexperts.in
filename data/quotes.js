@@ -1,6 +1,6 @@
 export default [
   {
-    name: "Sudan S S",
+    name: "Pooja Bhat",
     quote: `KNOWLEDGE BANK, ENTHUSIASTIC LEARNER, SELF MOTIVATED, PASSIONATE PROGRAMMER.
 
     In such a short time, the knowledge you have achieved is commendable. Knowing to do the things with perfection and delivering the projects on time is what I can say about you. Having you in the team is like having a dependable person who can be completely trusted, your creative solutions are always remarkable.
