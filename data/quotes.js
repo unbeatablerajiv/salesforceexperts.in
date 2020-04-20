@@ -1,8 +1,12 @@
 export default [
   {
     name: "Sudan S S",
-    quote: `Pratap has good work ethics. Always willing to push his limits in solving the problem. Techie+Writer combination- he has winning mindset.`,
-    profileUrl: "https://www.linkedin.com/in/suddanss/",
+    quote: `KNOWLEDGE BANK, ENTHUSIASTIC LEARNER, SELF MOTIVATED, PASSIONATE PROGRAMMER.
+
+    In such a short time, the knowledge you have achieved is commendable. Knowing to do the things with perfection and delivering the projects on time is what I can say about you. Having you in the team is like having a dependable person who can be completely trusted, your creative solutions are always remarkable.
+    
+    Very proud of your achievements and continue with your never-say-die spirit.`,
+    profileUrl: "https://www.linkedin.com/in/pooja-bhat-004055116/",
   },
   {
     name: "Allan Joseph",
