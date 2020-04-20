@@ -5,30 +5,36 @@ template: page
 thumbnail: "../thumbnails/pratap2018.png"
 ---
 
-I’m Pratap Sharma, a full stack software developer, technical writer, and former chef. I [learn in public](/learn) and write about everything I know.
+I’m Rajiv Singh, a Salesforce Tech Lead, technical writer, motorhead, chef. I am a salesforce Evangelist and love to spread the knowledge of Salesforce.
 
-I aim to create a beautiful corner of the web free of ads, sponsored posts, newsletter pop-ups, affiliate links, and the rest of the annoying noise we're so accustomed to seeing on the internet these days.
+I aim to contribute my bit to the salesforce ohana from what I have learned and now trying to give it back to the community.
 
-### Pratap:
+### Rajiv Singh:
 
-- 💻 works full-time as a software engineer
-- 👾 loves old strategy games and old technology
-- ☕ needs coffee
-- 🍺 also needs beer
+- 💻 Working full-time as a Salesforce Tech Lead
+- 👾 loves play cricket & listening to music.
+- ☕  coffee lover
+- 🍺 MotorHead
 
 ### Skills:
 
-- React
-- React-Native
-- Node.js
-- Spring Boot
+- Salesforce CRM
+- Sales Cloud
+- Service Cloud
+- CPQ
+- Apex Triggers
+- Webservices
+- Lightning Framework
+- LWC
 
-## Currently Using
 
-- **Computer:** 13" MacBook Air
-- **Hosting:** [Netlify](https://netlify.com)
-- **Editor:** [Visual Studio Code](https://code.visualstudio.com/)
-- **Static site generator:** [Gatsby](https://gatsbyjs.org)
-- **Syntax highlighting:** [PrismJS](http://prismjs.com/)
-- **Email newsletter:** [Substack](https://substack.com)
-- **Notes:** [SimpleNote](https://simplenote.com/), [TakeNote](https://takenote.dev)
+### Skills:
+- Sales Cloud Consultant
+- Service Cloud Consultant
+- CPQ Speacialist
+- Administrator
+- Plaform Developer 1
+- Platform Developer 2
+- Scrum Certified Professional
+
+
