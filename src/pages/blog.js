@@ -73,7 +73,7 @@ export default class BlogPage extends Component {
         <div className="gradient-section articles">
           <div className="container">
             <h2 className="text-center">
-              The Missing Instruction Manuals of the Web
+              Welcome to the world of Salesforce Ohana
             </h2>
             <div className="instruction-manuals">
               {manuals.map((manual) => (

@@ -19,22 +19,22 @@ I aim to contribute my bit to the salesforce ohana from what I have learned and 
 ### Skills:
 
 - Salesforce CRM
-- Sales Cloud
-- Service Cloud
-- CPQ
 - Apex Triggers
-- Webservices
-- Lightning Framework
+- Visualforce Pages
+- REST/SOAP Integration
+- Lightning Component
 - LWC
 
 
 ### Certifications:
 - Sales Cloud Consultant
 - Service Cloud Consultant
+- Financial Cloud Consultant
 - CPQ Specialist
 - Salesforce Administrator
-- Plaform Developer 1
+- Platform Developer 1
 - Platform Developer 2
 - Scrum Certified Professional
+
 
 

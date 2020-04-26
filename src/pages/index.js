@@ -80,16 +80,7 @@ export default class Index extends Component {
             <ProjectListing projects={projects} />
           </section> */}
 
-          <section className="section">
-            <h2>
-              <strong>*</strong> COVID19 India updates{" "}
-              {format(new Date(), "do MMMM")}
-              <Link to="/covid19India" className="view-all">
-                View more updates
-              </Link>
-            </h2>
-            <Covid />
-          </section>
+          
         </div>
         <UserInfo config={config} />
         <div className="gradient-section">
