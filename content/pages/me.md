@@ -14,7 +14,7 @@ I aim to contribute my bit to the salesforce ohana from what I have learned and 
 - 💻 Working full-time as a Salesforce Tech Lead
 - 👾 loves playing cricket & listening to music.
 - ☕  Cold coffee lover
-- 🍺 MotorHead
+- 🚗 MotorHead
 
 ### Skills:
 

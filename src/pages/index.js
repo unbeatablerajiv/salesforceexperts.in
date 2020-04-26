@@ -28,9 +28,12 @@ export default class Index extends Component {
             <div className="elevator">
               <h1>{`Hey, I'm Rajiv👋`} </h1>
               <p>
-                I am a Salesforce Tech lead creating
-                innovative solutions on the salesforce platform. Let's connect
-                and contribute to salesforce ohana.
+                I am a Salesforce Evangelist. WOrking as a full time Salesforce
+                Tech lead creating innovative solutions on the salesforce platform.
+                I have learn't a lot from the awesome Salesforce community & Ohana.
+                Got multiple certifications from Salesforce.
+                Now as we know, We in Salesforce Ohana believe in #GivingBack.
+                Let's connect and contribute to salesforce ohana.
               </p>
             </div>
             <div className="newsletter-section">
