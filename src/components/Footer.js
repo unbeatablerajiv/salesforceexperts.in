@@ -23,7 +23,7 @@ export default class Footer extends Component {
           >
             Patreon
           </a>
-          <Link to="/contact">Newsletter</Link>
+         
         </div>
         <div>
           <a href="https://www.netlify.com/" title="Hosted by Netlify">
@@ -45,6 +45,7 @@ export default class Footer extends Component {
             />
           </a>
         </div>
+        <p>Copyright@2020 Rajiv Singh</p>
       </footer>
     );
   }
