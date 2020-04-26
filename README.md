@@ -8,7 +8,7 @@ Rajiv's personal website running on Gatsby, React, and Node.js.
 
 - [Rajiv Singh](salesforceexperts.in)
 
-<a href="https://www.patreon.com/pratap22"><img src="https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.herokuapp.com/taniarascia&style=for-the-badge" alt="Patreon donate button" /> </a>
+<a href="https://www.patreon.com/rajivsingh"><img src="https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.herokuapp.com/taniarascia&style=for-the-badge" alt="Patreon donate button" /> </a>
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/rajivsingh)
 

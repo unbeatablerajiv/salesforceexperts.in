@@ -20,7 +20,7 @@ export default class UserInfo extends Component {
 
               <div className="flex">
                 <a
-                  href="https://ko-fi.com/pratap22"
+                  href="https://ko-fi.com/rajivsingh"
                   className="donate-button"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -30,7 +30,7 @@ export default class UserInfo extends Component {
                 </a>
                 <a
                   className="patreon-button"
-                  href="https://www.patreon.com/pratap22"
+                  href="https://www.patreon.com/rajivsingh"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
