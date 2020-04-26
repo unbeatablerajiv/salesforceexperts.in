@@ -19,6 +19,11 @@ export default [
     profileUrl: "https://www.linkedin.com/in/nishita-de-%E2%98%81-50005363/",
   },
   {
+    name: "Ashim Kumar Sahoo",
+    quote: `Rajiv has always been a pleasure to work with. He is very passionate about the work and has in-depth knowledge of the domain.I was particularly impressed by Rajiv’s ability to handle even the toughest clients—effortlessly, starting from client communication, analyzing requirements, giving solutions and directing the team. That skill often takes years to develop in professionals, but it seemed to come perfectly naturally to him.Responsibility, dependability, reliability, trustability are few words which would fit his personality.As a team member or a leader, Rajiv earns my highest recommendation.`,
+    profileUrl: "https://www.linkedin.com/in/ashim-kumar-sahoo/",
+  },
+  {
     name: "Deepthi Prabhu",
     quote: `Rajiv - one of the ace developer of our team. Always ready to provide a solution in whichever situation he is put into. Juniors in the team look up-to him to learn. A helpful soul I can say. Good wishes to him and look forward for long professional relationship.`,
     profileUrl: "https://www.linkedin.com/in/deepthiprabhu/",
@@ -50,11 +55,6 @@ export default [
     name: "Karthik S",
     quote: `It was a real pleasure to work together with Rajiv, who was an excellent Senior Salesforce developer. He was well respected in our department and everyone enjoyed working with him. His performance at KVP Business solutions was golden. Energetic and broad-minded Senior Salesforce developer - that's him! Detail oriented team player. Dedicated and goal oriented strategist that cannot be overestimated. Rajiv makes the impossible possible. I definitely would recommend him as Senior Salesforce developer.`,
     profileUrl: "https://www.linkedin.com/in/karthiks12/",
-  },
-  {
-    name: "Ashim Kumar Sahoo",
-    quote: `Rajiv has always been a pleasure to work with. He is very passionate about the work and has in-depth knowledge of the domain.I was particularly impressed by Rajiv’s ability to handle even the toughest clients—effortlessly, starting from client communication, analyzing requirements, giving solutions and directing the team. That skill often takes years to develop in professionals, but it seemed to come perfectly naturally to him.Responsibility, dependability, reliability, trustability are few words which would fit his personality.As a team member or a leader, Rajiv earns my highest recommendation.`,
-    profileUrl: "https://www.linkedin.com/in/ashim-kumar-sahoo/",
   },
   {
     name: "Prashant Dwivedi",
