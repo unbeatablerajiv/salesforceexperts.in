@@ -39,7 +39,7 @@ To promote good error handling practices, reuse and provide a framework for hand
  -Util class to control exceptions and integrations logging.
 This framework can be customized and extended to include Events functionalities. Here is an example:
 
-![netlify_account](../screenshots/Screen-shot-2020-04-16 at 3.02.49 PM.jpg "Netlify Account")
+![netlify_account](../screenshots/Screen-shot-2020-04-16-at-3.05.20-PM.jpg "Netlify Account")
 
 
 
