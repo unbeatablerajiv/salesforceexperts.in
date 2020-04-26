@@ -31,7 +31,7 @@ export default class NotFoundPage extends Component {
           </div>
           <p>
             A fatal exception 0E has occurred at{" "}
-            <span className="pratap">0x74616e6961</span> in 404: page not found.
+            <span className="rajiv">0x74616e6961</span> in 404: page not found.
           </p>
           <div className="list">
             <p>

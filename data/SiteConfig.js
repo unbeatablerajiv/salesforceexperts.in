@@ -4,7 +4,7 @@ const config = {
   siteTitleAlt: "Rajiv Singh",
   siteLogo: "/logos/logo-1024.png",
   siteUrl: "https://salesforceexperts.in/",
-  repo: "https://github.com/pratap22/pratapsharma.in",
+  repo: "https://github.com/unbeatablerajiv/salesforceexperts.in",
   pathPrefix: "",
   dateFromFormat: "YYYY-MM-DD",
   dateFormat: "MMMM Do, YYYY",
@@ -17,14 +17,14 @@ const config = {
   newsletterEmbed: "https://pratap.substack.com/embed",
   userName: "Rajiv",
   userEmail: "rajiv4som1@gmail.com",
-  userTwitter: "pratap2210",
+  userTwitter: "RAJIVSI74947096",
   menuLinks: [
     {
       name: "About me",
       link: "/me/",
     },
     {
-      name: "Articles",
+      name: "Blogs",
       link: "/blog/",
     },
     {

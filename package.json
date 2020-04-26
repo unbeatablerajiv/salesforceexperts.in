@@ -1,9 +1,9 @@
 {
-  "name": "pratapsharma.in",
+  "name": "salesforceexperts.in",
   "description": "Personal website running on Gatsby, React, and Node.js.",
   "version": "1.0.1",
-  "author": "Pratap Sharma <sharma.pratap22@gmail.com>",
-  "repository": "git@github.com:pratap22/pratapsharma.in",
+  "author": "Rajiv Singh <rajiv4som1@gmail.com>",
+  "repository": "git@github.com:unbeatablerajiv/salesforceexperts.in",
   "dependencies": {
     "@weknow/gatsby-remark-twitter": "^0.2.3",
     "axios": "^0.19.2",
@@ -58,7 +58,7 @@
     "stylelint-config-standard": "^18.0.0"
   },
   "keywords": [
-    "pratap sharma",
+    "rajiv singh",
     "development",
     "dev",
     "tutorials",

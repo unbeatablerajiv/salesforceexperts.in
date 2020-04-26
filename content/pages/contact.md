@@ -2,7 +2,7 @@
 title: Contact
 slug: contact
 template: page
-thumbnail: "../thumbnails/pratap2018.png"
+thumbnail: "../thumbnails/rajiv.png"
 ---
 
 Hi, I'm Rajiv Singh, a Senior Salesforce Technical Lead based in Bangalore, India. I have extensive development experience across the multilple products of Salesforce.com.

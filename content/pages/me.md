@@ -2,7 +2,7 @@
 title: About me
 slug: me
 template: page
-thumbnail: "../thumbnails/pratap2018.png"
+thumbnail: "../thumbnails/rajiv.png"
 ---
 
 I’m Rajiv Singh, a Salesforce Tech Lead, technical writer, motorhead, chef. I am a salesforce Evangelist and love to spread the knowledge of Salesforce.

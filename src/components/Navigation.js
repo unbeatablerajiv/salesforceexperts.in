@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
-import profile from "../images/profile-face.png";
+import profile from "../images/profile.png";
 import sun from "../images/sun.svg";
 import moon from "../images/moon.svg";
 import ThemeContext from "../context/ThemeContext";
@@ -39,7 +39,7 @@ export default class Navigation extends Component {
           <div className="brand">
             <Link to="/">
               <img src={profile} className="favicon" alt="Floppy Diskette" />
-              <span className="text">Pratap Sharma</span>
+              <span className="text">Rajiv Singh</span>
             </Link>
           </div>
           <div className="links">

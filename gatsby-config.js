@@ -113,7 +113,7 @@ module.exports = {
         setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata;
           ret.allMarkdownRemark = ref.query.allMarkdownRemark;
-          ret.generator = "Pratap Sharma";
+          ret.generator = "Rajiv Singh";
           return ret;
         },
         query: `
@@ -177,7 +177,7 @@ module.exports = {
             }
           `,
             output: config.siteRss,
-            title: "Pratap Sharma - RSS Feed",
+            title: "Rajiv Singh - RSS Feed",
           },
         ],
       },

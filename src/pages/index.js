@@ -8,7 +8,7 @@ import PostListing from "../components/PostListing";
 import SEO from "../components/SEO";
 import config from "../../data/SiteConfig";
 import quotes from "../../data/quotes";
-import pratap from "../../content/images/profile.jpg";
+import profile from "../../content/images/profile.jpg";
 import UserInfo from "../components/UserInfo";
 import Covid from "../components/Covid";
 
@@ -34,7 +34,7 @@ export default class Index extends Component {
               </p>
             </div>
             <div className="newsletter-section">
-              <img src={pratap} className="newsletter-avatar" alt="Pratap" />
+              <img src={profile} className="newsletter-avatar" alt="Rajiv" />
               <div>
                 <h3>Email Newsletter</h3>
                 <p>

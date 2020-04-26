@@ -23,7 +23,6 @@ export default class Footer extends Component {
           >
             Patreon
           </a>
-          <Link to="/tweets">Tweets</Link>
           <Link to="/contact">Newsletter</Link>
         </div>
         <div>

@@ -8,7 +8,7 @@ import PostTags from "../components/PostTags";
 import SEO from "../components/SEO";
 import config from "../../data/SiteConfig";
 import { formatDate, editOnGithub } from "../utils/global";
-import pratap from "../../content/images/profile-small.jpg";
+import profile from "../../content/images/profile-small.jpg";
 
 export default class PostTemplate extends Component {
   render() {
@@ -50,7 +50,7 @@ export default class PostTemplate extends Component {
               <h1>{post.title}</h1>
               <div className="post-meta">
                 <Link to="/me">
-                  <img src={pratap} className="avatar-small" alt="Pratap" />
+                  <img src={profile} className="avatar-small" alt="Rajiv" />
                 </Link>
                 <time className="date">{date}</time>/
                 <a
