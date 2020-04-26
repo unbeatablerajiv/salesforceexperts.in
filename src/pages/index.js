@@ -44,7 +44,7 @@ export default class Index extends Component {
                   I write tutorials. Get an update when something new comes out
                   by signing up below!
                 </p>
-                <a className="button" href="https://pratap.substack.com">
+                <a className="button" href="https://rajivsingh.substack.com/">
                   Subscribe
                 </a>
               </div>
