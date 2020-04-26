@@ -21,14 +21,14 @@ class ThemeProvider extends Component {
       this.setState({ dark: lsDark })
     }
   }
-
+  
   componentDidUpdate(prevState) {
     const { dark } = this.state
 
     if (prevState.dark !== dark) {
       localStorage.setItem('dark', JSON.stringify(dark))
     }
-  }
+  } 
 
   toggleDark = () => {
     this.setState(prevState => ({ dark: !prevState.dark }))
