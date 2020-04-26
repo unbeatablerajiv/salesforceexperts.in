@@ -47,24 +47,48 @@ export default [
     profileUrl: "https://www.linkedin.com/in/sushmatiwaari/",
   },
   {
-    name: "Anand Durga Prasad V",
-    quote: `Worked with Rajiv earlier, he is quick learner and troubleshooter for most of the complex issues.`,
-    profileUrl: "https://www.linkedin.com/in/anand-durga-prasad-v-7a784257/",
+    name: "Karthik S",
+    quote: `It was a real pleasure to work together with Rajiv, who was an excellent Senior Salesforce developer. He was well respected in our department and everyone enjoyed working with him. His performance at KVP Business solutions was golden. Energetic and broad-minded Senior Salesforce developer - that's him! Detail oriented team player. Dedicated and goal oriented strategist that cannot be overestimated. Rajiv makes the impossible possible. I definitely would recommend him as Senior Salesforce developer.`,
+    profileUrl: "https://www.linkedin.com/in/karthiks12/",
   },
   {
-    name: "Anand Durga Prasad V",
-    quote: `Worked with Rajiv earlier, he is quick learner and troubleshooter for most of the complex issues.`,
-    profileUrl: "https://www.linkedin.com/in/anand-durga-prasad-v-7a784257/",
+    name: "Ashim Kumar Sahoo",
+    quote: `Rajiv has always been a pleasure to work with. He is very passionate about the work and has in-depth knowledge of the domain.I was particularly impressed by Rajiv’s ability to handle even the toughest clients—effortlessly, starting from client communication, analyzing requirements, giving solutions and directing the team. That skill often takes years to develop in professionals, but it seemed to come perfectly naturally to him.Responsibility, dependability, reliability, trustability are few words which would fit his personality.As a team member or a leader, Rajiv earns my highest recommendation.`,
+    profileUrl: "https://www.linkedin.com/in/ashim-kumar-sahoo/",
   },
   {
-    name: "Anand Durga Prasad V",
-    quote: `Worked with Rajiv earlier, he is quick learner and troubleshooter for most of the complex issues.`,
-    profileUrl: "https://www.linkedin.com/in/anand-durga-prasad-v-7a784257/",
+    name: "Prashant Dwivedi",
+    quote: `Rajiv comes with expertise around Salesforce. He is a good listener and translates the business requirements efficiently. Always ready to support team whenever needed. It is fun to work with him and I recommend Rajiv to everyone and wish him Good luck.`,
+    profileUrl: "https://www.linkedin.com/in/dwivediprashant/",
   },
   {
-    name: "Anand Durga Prasad V",
-    quote: `Worked with Rajiv earlier, he is quick learner and troubleshooter for most of the complex issues.`,
-    profileUrl: "https://www.linkedin.com/in/anand-durga-prasad-v-7a784257/",
+    name: "Mudasser Ahamed",
+    quote: `Rajiv comes with expertise in various aspects of salesforce. Always ready to adopt the changes. I recommend him for everyone. Wishing him a very good luck.`,
+    profileUrl: "https://www.linkedin.com/in/mudasser-ahamed-405850114/",
   },
-  
+  {
+    name: "Tanay Das Barman",
+    quote: `I know Rajiv from the day zero of his IT career. Very first day what I have noticed about him is, his sparkling nature and eagerness to do something for his career. He is self-esteem guy to learn new things and at the same time delivered the products on time. His humble attitude help us to work as a Team and please be humble always.`,
+    profileUrl: "https://www.linkedin.com/in/tanay007/",
+  },
+  {
+    name: "Sweta Singh",
+    quote: `Rajiv comes with immense energy and dedication. He takes lot of ownership when any task is assigned to him. He started his journey as fresher and today he is one of the Senior Developer in KVP. He is one of the most amazing co-worker with lot of enthusiasm. Wish him lot of luck.`,
+    profileUrl: "https://www.linkedin.com/in/sweta-singh-43359019/",
+  },
+  {
+    name: "ARUN PRASAD",
+    quote: `Rajiv was a reliable co-worker, with commitment to timeline, and transparent personality. Eager to learn new stuffs in Sales Force, and capability to handle multiple projects, have contributed a lot. It was cool to work with Rajiv, and recommend him as a good team mate.`,
+    profileUrl: "linkedin.com/in/2arunprasad/",
+  },
+  {
+    name: "Anand Prabhu",
+    quote: `Rajiv is a hardworker and he learns technology quickly. I have seen him develop from a fresher to a senior developer. He has immense energy and enthusiasm and he is eager to take up new tasks and challenges. In addition to that he is a great co-worker and uses his wit and charm well to build relationships in the office. I wish him all the best in his future endeavors. `,
+    profileUrl: "https://www.linkedin.com/in/anandprabhu9/",
+  },
+  {
+    name: "Arun Kumar Chinnasamy ",
+    quote: `Good technical understanding of SFDC. Expert level skills in customization.`,
+    profileUrl: "https://www.linkedin.com/in/arun-kumar-chinnasamy-67a355a0/",
+  },
 ];
