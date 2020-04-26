@@ -11,7 +11,7 @@ const config = {
   siteDescription:
     "Rajiv Singh is a Salesforce Tech lead and specialist in various salesforce products.",
   siteRss: "/rss.xml",
-  googleAnalyticsID: "UA-163699025-1",
+  googleAnalyticsID: "UA-48769882-1",
   postDefaultCategoryID: "Tech",
   newsletter: "https://rajivsingh.substack.com/",
   newsletterEmbed: "https://rajivsingh.substack.com/embed",
