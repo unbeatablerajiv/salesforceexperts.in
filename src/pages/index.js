@@ -41,7 +41,7 @@ export default class Index extends Component {
               <div>
                 <h3>Email Newsletter</h3>
                 <p>
-                  I write tutorials. Get an update when something new comes out
+                  I write Technical articles, salesforce blogs & solutions. Get an update when something new comes out
                   by signing up below!
                 </p>
                 <a className="button" href="https://rajivsingh.substack.com/">
