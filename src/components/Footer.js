@@ -10,14 +10,14 @@ export default class Footer extends Component {
       <footer className="footer container">
         <div>
           <a
-            href="https://ko-fi.com/pratap22"
+            href="https://ko-fi.com/rajivsingh"
             target="_blank"
             rel="noopener noreferrer"
           >
             Ko-fi
           </a>
           <a
-            href="https://www.patreon.com/pratap22"
+            href="https://www.patreon.com/rajivsingh"
             target="_blank"
             rel="noopener noreferrer"
           >
