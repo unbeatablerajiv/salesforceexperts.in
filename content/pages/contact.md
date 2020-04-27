@@ -9,6 +9,7 @@ Hi, I'm Rajiv Singh, a Senior Salesforce Technical Lead based in Bangalore, Indi
 
 If you have any comments, ideas, critiques, or you just want to say hi, don't hesitate to send me an email at [rajiv4som1@gmail.com](mailto:rajiv4som1[AT]gmail[DOT]com)!
 
+
 ### Around the web
 
 - **Email**: [rajiv4som1@gmail.com](mailto:rajiv4som1[AT]gmail[DOT]com)
