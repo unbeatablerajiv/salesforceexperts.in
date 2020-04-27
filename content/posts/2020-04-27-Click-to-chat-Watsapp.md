@@ -7,7 +7,7 @@ slug: Click-to-chat-Watsapp
 categories:
   - Code
   - Popular
-tags:
+tags: 
   - Click-to-chat
   - Watsapp
   - Chat without saving phone number to contact
