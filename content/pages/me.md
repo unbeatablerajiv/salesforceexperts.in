@@ -15,6 +15,7 @@ I aim to contribute my bit to the salesforce ohana from what I have learned and 
 - 👾 loves playing cricket & listening to music.
 - ☕  Cold coffee lover
 - 🚗 MotorHead
+- 👨‍💻 Blogger
 
 ### Skills:
 
