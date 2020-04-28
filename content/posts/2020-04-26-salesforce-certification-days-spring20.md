@@ -16,7 +16,7 @@ tags:
 ![netlify_account](../screenshots/24.png "Certification Days")
 # Trailhead Academy - Certification Days
 
-Let's make the best use of lockdown time and equip ourselfs with better knowledge and competency.Free Salesforce Certification Days webinars conducted by Salesforce Exports.**FREE** Salesforce certification prep webinars available this month to help you hit your **Salesforce certification goals.**
+Let's make the best use of lockdown time and equip ourselves with better knowledge and competency.Free Salesforce Certification Days webinars conducted by Salesforce Exports.**FREE** Salesforce certification prep webinars available this month to help you hit your **Salesforce certification goals.**
 
  **Receive a $100 discount code for ANY $200 exam – MAY 2020**<br/>
 
