@@ -45,7 +45,7 @@ export default class Footer extends Component {
             />
           </a>
         </div>
-        <p>Copyright@2020 Rajiv Singh</p>
+        <p>© 2020 Copyright salesforceexperts.in, All Rights Reserved.</p>
       </footer>
     );
   }
