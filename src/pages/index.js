@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
-import GitHubButton from "react-github-btn";
-import { format } from "date-fns";
 import { graphql, Link } from "gatsby";
 import Layout from "../layout";
 import PostListing from "../components/PostListing";
@@ -10,7 +8,7 @@ import config from "../../data/SiteConfig";
 import quotes from "../../data/quotes";
 import profile from "../../content/images/profile.jpg";
 import UserInfo from "../components/UserInfo";
-import Covid from "../components/Covid";
+import moment from 'moment'
 
 export default class Index extends Component {
   render() {
@@ -28,7 +26,7 @@ export default class Index extends Component {
             <div className="elevator">
               <h1>{`Hey, I'm Rajiv👋`} </h1>
               <p>
-                I am a Salesforce Evangelist. Working as a full time Salesforce
+                I am a Salesforce Evangelist (Trailhead Mentor). Working as a full time Salesforce
                 Tech lead creating innovative solutions on the salesforce platform.
                 I have learn't a lot from the awesome Salesforce community & Ohana.
                 Got multiple certifications from Salesforce.
@@ -60,7 +58,9 @@ export default class Index extends Component {
                 View all
               </Link>
             </h2>
-            <PostListing simple postEdges={latestPostEdges} />
+            <PostListing simple postEdges={latestPostEdges.filter(postEdge => {
+              return moment(postEdge.node.fields.date) > moment().subtract(5, 'days')
+            })} />
           </section>
 
           {popularPostEdges && popularPostEdges.length > 0 && (
@@ -74,11 +74,6 @@ export default class Index extends Component {
               <PostListing simple postEdges={popularPostEdges} />
             </section>
           )}
-
-          {/* <section className="section">
-            <h2>Open Source Projects</h2>
-            <ProjectListing projects={projects} />
-          </section> */}
 
           
         </div>

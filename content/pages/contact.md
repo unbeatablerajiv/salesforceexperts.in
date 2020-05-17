@@ -5,7 +5,7 @@ template: page
 thumbnail: "../thumbnails/rajiv.png"
 ---
 
-Hi, I'm Rajiv Singh, a Senior Salesforce Technical Lead based in Bangalore, India. I have extensive development experience across the multilple products of Salesforce.com.
+Hi, I'm Rajiv Singh, a Senior Salesforce Technical Lead **(Trailhead Mentor)**based in Bangalore, India. I have extensive development experience across the multilple products of Salesforce.com.
 
 If you have any comments, ideas, critiques, or you just want to say hi, don't hesitate to send me an email at [rajiv4som1@gmail.com](mailto:rajiv4som1[AT]gmail[DOT]com)!
 

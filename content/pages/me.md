@@ -19,7 +19,7 @@ I aim to contribute my bit to the salesforce ohana from what I have learned and 
 
 ### Skills:
 
-- Salesforce CRM
+- Salesforce CRM(Sales , Service , CPQ , Community , Financial cloud etc)
 - Apex Triggers
 - Visualforce Pages
 - REST/SOAP Integration
@@ -35,6 +35,8 @@ I aim to contribute my bit to the salesforce ohana from what I have learned and 
 - Salesforce Administrator
 - Platform Developer 1
 - Platform Developer 2
+- Platform App Builder
+- Trailhead Mentor
 - Scrum Certified Professional
 
 
