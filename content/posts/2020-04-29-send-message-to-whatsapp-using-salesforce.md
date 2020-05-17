@@ -16,7 +16,7 @@ tags:
 ---
 ![netlify_account](../screenshots/44.png "Salesforce")
 
-Send whatsapp messages from salesforce using Click to chat feature. A small lightning component has to be created and you cam find the code below.
+Send whatsapp messages from salesforce using Click to chat feature. A small lightning component has to be created and you can find the code below.
 
 I have created a quick action on contact object and I am using the lightning component on click of the action button.Lightning component fetches the mobile number on contact and uses click to chat feature of whatsapp to take the message input and call whatsapp API.
 
