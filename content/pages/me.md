@@ -37,6 +37,7 @@ I aim to contribute my bit to the salesforce ohana from what I have learned and 
 - Platform Developer 2
 - Platform App Builder
 - Trailhead Mentor
+- Copado Certified Administrator
 - Scrum Certified Professional
 
 
