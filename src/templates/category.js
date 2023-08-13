@@ -22,38 +22,34 @@ export default class CategoryTemplate extends Component {
   }
 }
 
-export const pageQuery = graphql`
-  query CategoryPage($category: String) {
-    allMarkdownRemark(
-      limit: 1000
-      sort: { fields: [fields___date], order: DESC }
-      filter: { frontmatter: { categories: { in: [$category] } } }
-    ) {
-      totalCount
-      edges {
-        node {
-          fields {
-            slug
-            date
-          }
-          excerpt
-          timeToRead
-          frontmatter {
-            title
-            tags
-            categories
-            thumbnail {
-              childImageSharp {
-                fixed(width: 150, height: 150) {
-                  ...GatsbyImageSharpFixed
-                }
-              }
+export const pageQuery = graphql`query CategoryPage($category: String) {
+  allMarkdownRemark(
+    limit: 1000
+    sort: {fields: {date: DESC}}
+    filter: {frontmatter: {categories: {in: [$category]}}}
+  ) {
+    totalCount
+    edges {
+      node {
+        fields {
+          slug
+          date
+        }
+        excerpt
+        timeToRead
+        frontmatter {
+          title
+          tags
+          categories
+          thumbnail {
+            childImageSharp {
+              gatsbyImageData(width: 150, height: 150, layout: FIXED)
             }
-            date
-            template
           }
+          date
+          template
         }
       }
     }
   }
-`
+}`

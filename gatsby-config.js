@@ -1,16 +1,18 @@
-const urljoin = require("url-join");
+/**
+ * @type {import('gatsby').GatsbyConfig}
+ */
+const urlJoin = require("url-join");
 const config = require("./data/SiteConfig");
-
 module.exports = {
   pathPrefix: config.pathPrefix === "" ? "/" : config.pathPrefix,
   siteMetadata: {
-    siteUrl: urljoin(config.siteUrl, config.pathPrefix),
+    siteUrl: urlJoin(config.siteUrl, config.pathPrefix),
     rssMetadata: {
-      site_url: urljoin(config.siteUrl, config.pathPrefix),
-      feed_url: urljoin(config.siteUrl, config.pathPrefix, config.siteRss),
+      site_url: urlJoin(config.siteUrl, config.pathPrefix),
+      feed_url: urlJoin(config.siteUrl, config.pathPrefix, config.siteRss),
       title: config.siteTitle,
       description: config.siteDescription,
-      image_url: `${urljoin(
+      image_url: `${urlJoin(
         config.siteUrl,
         config.pathPrefix
       )}/logos/logo-48.png`,
@@ -18,7 +20,25 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-sass",
-    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-image", 
+    "gatsby-plugin-sitemap", 
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+      "icon": "src/images/icon.png"
+      }
+    }, 
+    "gatsby-plugin-mdx", 
+    "gatsby-plugin-sharp", 
+    "gatsby-transformer-sharp", 
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        "name": "images",
+        "path": "./src/images/"
+      },
+      __key: "images"
+    },
     {
       resolve: `gatsby-plugin-netlify`,
       options: {
@@ -65,12 +85,6 @@ module.exports = {
             },
           },
         ],
-      },
-    },
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: config.googleAnalyticsID,
       },
     },
     {
@@ -148,39 +162,53 @@ module.exports = {
                 ],
               }));
             },
-            query: `
-            {
-              allMarkdownRemark(
-                limit: 1000,
-                sort: { order: DESC, fields: [fields___date] },
-                filter: { frontmatter: { template: { eq: "post" } } }
-              ) {
-                edges {
-                  node {
-                    excerpt(pruneLength: 180)
-                    html
-                    timeToRead
-                    fields {
-                      slug
-                      date
-                    }
-                    frontmatter {
-                      title
-                      date
-                      categories
-                      tags
-                      template
-                    }
-                  }
-                }
-              }
-            }
-          `,
+            query: `{
+  allMarkdownRemark(
+    limit: 1000
+    sort: {fields: {date: DESC}}
+    filter: {frontmatter: {template: {eq: "post"}}}
+  ) {
+    edges {
+      node {
+        excerpt(pruneLength: 180)
+        html
+        timeToRead
+        fields {
+          slug
+          date
+        }
+        frontmatter {
+          title
+          date
+          categories
+          tags
+          template
+        }
+      }
+    }
+  }
+}`,
             output: config.siteRss,
             title: "Rajiv Singh - RSS Feed",
           },
         ],
       },
+    }, 
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        "name": "pages",
+        "path": "./src/pages/"
+      },
+      __key: "pages"
     },
-  ],
+  {
+    resolve: `gatsby-plugin-google-gtag`,
+    options: {
+      trackingIds: [
+        config.googleAnalyticsID,
+      ],
+    },
+  },
+],
 };

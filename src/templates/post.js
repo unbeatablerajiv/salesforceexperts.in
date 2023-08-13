@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 import Layout from "../layout";
 import UserInfo from "../components/UserInfo";
 import PostTags from "../components/PostTags";
@@ -26,7 +26,7 @@ export default class PostTemplate extends Component {
     }
 
     if (post.thumbnail) {
-      thumbnail = post.thumbnail.childImageSharp.fixed;
+      thumbnail = post.thumbnail.childImageSharp.gatsbyImageData;
     }
 
     const date = formatDate(post.date);
@@ -45,7 +45,7 @@ export default class PostTemplate extends Component {
           <header
             className={`single-header ${!thumbnail ? "no-thumbnail" : ""}`}
           >
-            {thumbnail && <Img fixed={post.thumbnail.childImageSharp.fixed} />}
+            {thumbnail && <GatsbyImage image={post.thumbnail.childImageSharp.gatsbyImageData} />}
             <div className="flex">
               <h1>{post.title}</h1>
               <div className="post-meta">
@@ -61,15 +61,6 @@ export default class PostTemplate extends Component {
                 >
                   Share
                 </a>
-                {/* /
-                <a
-                  className="github-link"
-                  href={githubLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Edit ✏️
-                </a> */}
               </div>
               <PostTags tags={post.tags} />
             </div>
@@ -87,31 +78,27 @@ export default class PostTemplate extends Component {
 }
 
 /* eslint no-undef: "off" */
-export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
-      timeToRead
-      excerpt
-      frontmatter {
-        title
-        thumbnail {
-          childImageSharp {
-            fixed(width: 150, height: 150) {
-              ...GatsbyImageSharpFixed
-            }
-          }
+export const pageQuery = graphql`query BlogPostBySlug($slug: String!) {
+  markdownRemark(fields: {slug: {eq: $slug}}) {
+    html
+    timeToRead
+    excerpt
+    frontmatter {
+      title
+      thumbnail {
+        childImageSharp {
+          gatsbyImageData(width: 150, height: 150, layout: FIXED)
         }
-        slug
-        date
-        categories
-        tags
-        template
       }
-      fields {
-        slug
-        date
-      }
+      slug
+      date
+      categories
+      tags
+      template
+    }
+    fields {
+      slug
+      date
     }
   }
-`;
+}`;

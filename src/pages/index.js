@@ -125,67 +125,61 @@ export default class Index extends Component {
   }
 }
 
-export const pageQuery = graphql`
-  query IndexQuery {
-    latest: allMarkdownRemark(
-      limit: 5
-      sort: { fields: [fields___date], order: DESC }
-      filter: { frontmatter: { template: { eq: "post" } } }
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-            date
-          }
-          excerpt
-          timeToRead
-          frontmatter {
-            title
-            tags
-            categories
-            thumbnail {
-              childImageSharp {
-                fixed(width: 150, height: 150) {
-                  ...GatsbyImageSharpFixed
-                }
-              }
-            }
-            date
-            template
-          }
+export const pageQuery = graphql`query IndexQuery {
+  latest: allMarkdownRemark(
+    limit: 5
+    sort: {fields: {date: DESC}}
+    filter: {frontmatter: {template: {eq: "post"}}}
+  ) {
+    edges {
+      node {
+        fields {
+          slug
+          date
         }
-      }
-    }
-    popular: allMarkdownRemark(
-      limit: 9
-      sort: { fields: [fields___date], order: DESC }
-      filter: { frontmatter: { categories: { eq: "Popular" } } }
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-            date
-          }
-          excerpt
-          timeToRead
-          frontmatter {
-            title
-            tags
-            categories
-            thumbnail {
-              childImageSharp {
-                fixed(width: 150, height: 150) {
-                  ...GatsbyImageSharpFixed
-                }
-              }
+        excerpt
+        timeToRead
+        frontmatter {
+          title
+          tags
+          categories
+          thumbnail {
+            childImageSharp {
+              gatsbyImageData(width: 150, height: 150, layout: FIXED)
             }
-            date
-            template
           }
+          date
+          template
         }
       }
     }
   }
-`;
+  popular: allMarkdownRemark(
+    limit: 9
+    sort: {fields: {date: DESC}}
+    filter: {frontmatter: {categories: {eq: "Popular"}}}
+  ) {
+    edges {
+      node {
+        fields {
+          slug
+          date
+        }
+        excerpt
+        timeToRead
+        frontmatter {
+          title
+          tags
+          categories
+          thumbnail {
+            childImageSharp {
+              gatsbyImageData(width: 150, height: 150, layout: FIXED)
+            }
+          }
+          date
+          template
+        }
+      }
+    }
+  }
+}`;

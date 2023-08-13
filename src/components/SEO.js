@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
+import { getSrc } from "gatsby-plugin-image";
 import urljoin from "url-join";
 import config from "../../data/SiteConfig";
 
@@ -20,7 +21,7 @@ export default class SEO extends Component {
         ? postMeta.description
         : postNode.excerpt;
       if (postMeta.thumbnail) {
-        image = postMeta.thumbnail.childImageSharp.fixed.src;
+        image = getSrc(postMeta.thumbnail.childImageSharp.gatsbyImageData);
       }
       postURL = urljoin(config.siteUrl, replacePath(postPath));
     } else {
@@ -29,7 +30,7 @@ export default class SEO extends Component {
       image = config.siteLogo;
     }
 
-    image = urljoin(config.siteUrl, image);
+    image = urljoin(config.siteUrl, image || config.siteLogo);
     const blogURL = urljoin(config.siteUrl, config.pathPrefix);
     const schemaOrgJSONLD = [
       {

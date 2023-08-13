@@ -32,13 +32,11 @@ export default class CategoriesPage extends Component {
   }
 }
 
-export const pageQuery = graphql`
-  query CategoriesQuery {
-    allMarkdownRemark(limit: 2000) {
-      group(field: frontmatter___categories) {
-        fieldValue
-        totalCount
-      }
+export const pageQuery = graphql`query CategoriesQuery {
+  allMarkdownRemark(limit: 2000) {
+    group(field: {frontmatter: {categories: SELECT}}) {
+      fieldValue
+      totalCount
     }
   }
-`
+}`

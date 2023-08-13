@@ -27,38 +27,34 @@ export default class TagTemplate extends Component {
   }
 }
 
-export const pageQuery = graphql`
-  query TagPage($tag: String) {
-    allMarkdownRemark(
-      limit: 1000
-      sort: { fields: [fields___date], order: DESC }
-      filter: { frontmatter: { tags: { in: [$tag] } } }
-    ) {
-      totalCount
-      edges {
-        node {
-          fields {
-            slug
-            date
-          }
-          excerpt
-          timeToRead
-          frontmatter {
-            title
-            tags
-            categories
-            thumbnail {
-              childImageSharp {
-                fixed(width: 150, height: 150) {
-                  ...GatsbyImageSharpFixed
-                }
-              }
+export const pageQuery = graphql`query TagPage($tag: String) {
+  allMarkdownRemark(
+    limit: 1000
+    sort: {fields: {date: DESC}}
+    filter: {frontmatter: {tags: {in: [$tag]}}}
+  ) {
+    totalCount
+    edges {
+      node {
+        fields {
+          slug
+          date
+        }
+        excerpt
+        timeToRead
+        frontmatter {
+          title
+          tags
+          categories
+          thumbnail {
+            childImageSharp {
+              gatsbyImageData(width: 150, height: 150, layout: FIXED)
             }
-            date
-            template
           }
+          date
+          template
         }
       }
     }
   }
-`
+}`
