@@ -37,14 +37,9 @@ export default class Index extends Component {
             <div className="newsletter-section">
               <img src={profile} className="newsletter-avatar" alt="Rajiv" />
               <div>
-                <h3>Email Newsletter</h3>
                 <p>
-                  I write Technical articles, salesforce blogs & solutions. Get an update when something new comes out
-                  by signing up below!
+                  I write Technical articles, salesforce blogs & solutions.
                 </p>
-                <a className="button" href="https://rajivsingh.substack.com/">
-                  Subscribe
-                </a>
               </div>
             </div>
           </div>
