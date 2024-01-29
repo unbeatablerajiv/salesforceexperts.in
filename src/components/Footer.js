@@ -43,7 +43,7 @@ export default class Footer extends Component {
             />
           </a>
         </div>
-        <p>© 2023 Copyright salesforceexperts.in, All Rights Reserved.</p>
+        <p>© 2024 Copyright salesforceexperts.in, All Rights Reserved.</p>
       </footer>
     );
   }
