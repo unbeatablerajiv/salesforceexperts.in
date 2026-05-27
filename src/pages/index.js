@@ -26,7 +26,7 @@ export default class Index extends Component {
             <div className="elevator">
               <h1>{`Hey, I'm Rajiv👋`} </h1>
               <p>
-                I am a Salesforce Evangelist (Trailhead Mentor). Working as a full time Salesforce
+                I am a Salesforce Evangelist & Mentor.Working as a full time Salesforce
                 Tech lead creating innovative solutions on the salesforce platform.
                 I have learn't a lot from the awesome Salesforce community & Ohana.
                 Got multiple certifications from Salesforce.
